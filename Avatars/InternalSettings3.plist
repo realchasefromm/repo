@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>InternalSettings@2x.png</string>
+		<key>label</key>
+		<string>InternalSettings3</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string></string>
+			<key>height</key>
+			<integer>46</integer>
+			<key>icon</key>
+			<string>b@2x.png</string>
+			<key>path</key>
+			<string>/Library/PreferenceBundles/InternalSettings3.bundle/b@3x.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Changes how fast animations should load (an alternative to the Animation Overrides found in SpringBoard prototype tools menu).</string>
+			<key>label</key>
+			<string>Animations</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.apple.UIKit</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>UIAnimationDragCoefficient</string>
+			<key>label</key>
+			<string>Slow Animations</string>
+			<key>validTitles</key>
+			<array>
+				<string>Off</string>
+				<string>2x</string>
+				<string>5x</string>
+				<string>10x</string>
+				<string>25x</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>0</string>
+				<string>2</string>
+				<string>5</string>
+				<string>10</string>
+				<string>25</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Pay to be used anywhere on Touch ID-enabled devices (except for iPhone 5S).</string>
+			<key>label</key>
+			<string>Apple Pay Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>PKBypassStockholmRegionCheck</string>
+			<key>label</key>
+			<string>Pay Anywhere</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Unlocks iMessage Debugging settings tab found in Settings app -&gt; iMessage Debugging. Kill Settings app to apply changes by going in to App Switcher -&gt; swipe up on Settings app, then reopen Settings to see the changes that took affect.</string>
+			<key>label</key>
+			<string>iMessage Debugging Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>iMessageDiagnosticsEnabled</string>
+			<key>label</key>
+			<string>iMessage Debugging Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Unlocks Accessory Developer settings tab found in Settings app -&gt; Accessory Developer. Kill Settings app to apply changes by going in to App Switcher -&gt; swipe up on Settings app, then reopen Settings to see the changes that took affect.</string>
+			<key>label</key>
+			<string>Accessory Developer Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>AccessoryDeveloperEnabled</string>
+			<key>label</key>
+			<string>Accessory Developer Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Unlocks FaceTime Debugging settings tab found in Settings app -&gt; FaceTime Debugging. Kill Settings app to apply changes by going in to App Switcher -&gt; swipe up on Settings app, then reopen Settings to see the changes that took affect.</string>
+			<key>label</key>
+			<string>FaceTime Debugging Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>VCDiagnosticsEnabled</string>
+			<key>label</key>
+			<string>FaceTime Debugging Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Reveals internal Alternate UI found in internal builds of iOS software. Requires iOS 7.1 or iOS 8 to use. A respring is required after enabling or disabling this setting.</string>
+			<key>label</key>
+			<string>Alternate UI Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>UIUseAlternateUI</string>
+			<key>label</key>
+			<string>Alternate UI</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables proximity sensor (useful for FaceTime, Skype, etc. calls).</string>
+			<key>label</key>
+			<string>Proximity Sensor Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>footerText</key>
+			<string>Disables proximity sensor (very useful for when using FaceTime, Skype, Google Hangout, etc. calls).</string>
+			<key>key</key>
+			<string>SBDisableProximity</string>
+			<key>label</key>
+			<string>No Proximity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables SpringBoard prototype tools normally found in internal iOS 7 and iOS 8 builds Accessed by pressing the device's physical volume up button.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>footerText</key>
+			<string>Enables hidden SpringBoard prototype tools.</string>
+			<key>key</key>
+			<string>SBPrototypeSettingsEnabled</string>
+			<key>label</key>
+			<string>SpringBoard Prototype Tools</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables internal Lock Screen legal text message normally found in internal iOS builds.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>footerText</key>
+			<string>Reveals internal lock screen message used in internal builds.</string>
+			<key>key</key>
+			<string>SBShowLegalTextOnLockScreen</string>
+			<key>label</key>
+			<string>Lock Screen Legal Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Mute toggle in Control Center. On iOS 7, this setting will replace the Portrait Orientation Lock toggle with the Mute button. On iOS 8, this setting will hide the Portrait Orientation Lock toggle, leaving with 4 toggles in Control Center.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBUseHardwareSwitchAsOrientationLock</string>
+			<key>label</key>
+			<string>(CC) P/O Lock To Mute Toggle</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables Notification Center blur.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>footerText</key>
+			<string>Disables Notification Center blur effect. Works on unjailbroken iOS 7 and iOS 8 firmwares too!</string>
+			<key>key</key>
+			<string>SBDisableNotificationCenterBlur</string>
+			<key>label</key>
+			<string>(NC) Disable NC Blur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables App Switcher to kill SpringBoard by swiping up on the Home Screen card.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBKillableInAppSwitcher</string>
+			<key>label</key>
+			<string>Kill SB from App Switcher</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables cellular signal strength RSSI (found in the status bar).</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBShowGSMRSSI</string>
+			<key>label</key>
+			<string>(Cellular) RSSI Signal Strength</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Wi-Fi signal strength RSSI (found in the status bar).</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBShowRSSI</string>
+			<key>label</key>
+			<string>(Wi-Fi) RSSI Signal Strength</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables demo version of Control Center, and hidden AirPlay button.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBControlCenterDemo</string>
+			<key>label</key>
+			<string>Demo Control Center</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables low power battery alerts.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBHideLowPowerAlerts</string>
+			<key>label</key>
+			<string>Disable Low Battery Alerts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Photos internal debug settings. Accessed by opening Photos app and double tapping the status bar.</string>
+			<key>label</key>
+			<string>Photos App Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.mobileslideshow</string>
+			<key>key</key>
+			<string>PUEnableDoubleTapSettings</string>
+			<key>label</key>
+			<string>Photos Internal Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables orange colored console logging text in the Compass app.</string>
+			<key>label</key>
+			<string>Compass App Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.compass</string>
+			<key>key</key>
+			<string>ConsoleEnabled</string>
+			<key>label</key>
+			<string>Compass App Logging</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Allows "Hey, Siri!" to be used without being connected to a power source.</string>
+			<key>label</key>
+			<string>Siri Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.voicetrigger</string>
+			<key>key</key>
+			<string>Battery Power Allowed</string>
+			<key>label</key>
+			<string>"Hey, Siri!" Without Power</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Shows "Report a Problem" AirPlay button in Control Center.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>.GlobalPreferences</string>
+			<key>key</key>
+			<string>ShouldShowAirPlayDebugButtonInPicker</string>
+			<key>label</key>
+			<string>"Report a Problem" (AirPlay)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Maps internal settings. Accessed by opening Maps and tapping on the status bar. WARNING: This setting seems to be damaged or broken on iOS 8.3 and iOS 8.4. Do not use it if your device is on iOS 8.3, or iOS 8.4.</string>
+			<key>label</key>
+			<string>Maps Apps Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.Maps</string>
+			<key>key</key>
+			<string>DebugPanelEnabled</string>
+			<key>label</key>
+			<string>Maps Internal Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables Calendar app debug overlay.</string>
+			<key>label</key>
+			<string>Calendar App Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.mobilecal</string>
+			<key>key</key>
+			<string>ShowDebugOverlay</string>
+			<key>label</key>
+			<string>Calendar Debug Overlay</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Hides AC power. A reboot is required after enabling or disabling this setting.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBHideACPower</string>
+			<key>label</key>
+			<string>Hide AC Power</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables device to play a sound on device wakeup.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBPlaySoundOnDeviceWake</string>
+			<key>label</key>
+			<string>Play Sound on Wake-Up</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enables SpringBoard to never lock device even after power button is pressed. Useful for tethered downgrades. A respring is required after enabling or disabling this setting.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBDontLockEver</string>
+			<key>label</key>
+			<string>Don't Lock Device</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables idle sleep.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBDisableIdeSleep</string>
+			<key>label</key>
+			<string>Disable Idle Sleep</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Remotely hosts widgets.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBRemotelyHostWidgets</string>
+			<key>label</key>
+			<string>Remotely Host Widgets</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Shows a popup message on Home Screen that encourages you to use Spotlight.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBShowSpotlightAlertKey</string>
+			<key>label</key>
+			<string>Show Spotlight Message</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Suppresses thermal warning to cool down device.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBSuppressThermalWarning</string>
+			<key>label</key>
+			<string>Suppress Thermal Warning</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables dimming or locking device on AC power. Useful for tethered downgrades.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBDontDimOrLockOnAC</string>
+			<key>label</key>
+			<string>Don't Dim or Lock on AC</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Disables using the device's home button.</string>
+			<key>label</key>
+			<string>Home Button Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBDisableHomeButton</string>
+			<key>label</key>
+			<string>Disable Home Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Shows Class0 SMS from field.</string>
+			<key>label</key>
+			<string>Class0 SMS Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>SBShowClass0SMSFromField</string>
+			<key>label</key>
+			<string>Show Class0 SMS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Follow the Developer</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter@2x.png</string>
+			<key>label</key>
+			<string>Chase Fromm (@opandor)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2015 Chase Fromm, Tony Kraft, and appleXlaser136. Feel free to follow us on Twitter: @opandor, @iOSTonyKraft, and @etham20.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>InternalSettings3</string>
+</dict>
+</plist>
